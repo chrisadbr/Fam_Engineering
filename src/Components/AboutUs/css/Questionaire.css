@@ -1,0 +1,32 @@
+.questionaire__containercontainer {
+  display: flex;
+  min-height: 70vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.questionaires {
+  padding: 50px;
+  border-radius: 10px;
+}
+.header__container__questionaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.header__container__questionaire > h1 {
+  font-weight: 300;
+  position: relative;
+  color: rgb(60, 63, 63);
+}
+.header__container__questionaire > h1:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  width: 50px;
+  height: 2px;
+  background: rgb(245, 87, 87);
+  top: 55px;
+}

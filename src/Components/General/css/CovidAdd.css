@@ -1,0 +1,66 @@
+.covid {
+  display: flex;
+  align-items: center;
+  background: rgb(249, 249, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 249, 251, 1) 1%,
+    rgba(209, 209, 217, 1) 63%,
+    rgba(236, 22, 39, 1) 97%,
+    rgba(249, 247, 247, 1) 100%
+  );
+  width: 100%;
+  height: 40px;
+}
+.alert__text {
+  /* position: relative; */
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+.news__covid {
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 10px;
+  color: rgb(59, 57, 57);
+}
+/* .alert__icon {
+  position: relative;
+  margin-right: 20px;
+  margin-top: 20px;
+} */
+.warning__icon {
+  color: rgb(245, 87, 87);
+  position: absolute;
+  font-size: 27px;
+  font-weight: 600;
+  margin-top: 136px;
+  margin-left: -30px;
+}
+.MuiSvgIcon-root.arrow__forward,
+.arrow__forward {
+  padding-top: 10px !important;
+  font-size: 21px !important;
+  color: rgb(59, 57, 57) !important;
+}
+.covid__link {
+  padding-left: 10px;
+  font-weight: 600;
+  color: rgb(245, 87, 87);
+  transition: 1.2s;
+}
+.covid__link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.date__container {
+  margin-right: 65px;
+  color: white;
+}
+.date__day {
+  font-weight: 700;
+  font-size: 17px;
+  padding-left: 10px;
+}

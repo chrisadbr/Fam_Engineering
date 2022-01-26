@@ -1,0 +1,89 @@
+.contact__us {
+  width: 100%;
+  height: 72vh;
+  display: flex;
+}
+.contact__form__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100%;
+}
+.contact__map__container {
+  display: flex;
+  width: 50vw;
+  height: 100%;
+}
+.map-container {
+  width: 100%;
+}
+.contact__form {
+  width: 42vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact__form__name__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.contact__first__name > input,
+.contact__last__name > input {
+  height: 7vh;
+  width: 20vw;
+  padding: 7px;
+  font-size: 1.07rem;
+  margin: 10px;
+  border: 2px solid rgb(245, 87, 87);
+  outline: none;
+}
+.contact__form__email__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.contact__form__email__container .contact__form__email > input {
+  height: 7vh;
+  width: 41.3vw;
+  font-size: 1.07rem;
+  outline: none;
+  border: 2px solid rgb(245, 87, 87);
+  padding: 7px;
+}
+.contact__form__comment__container {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.contact__form__comment__container .contact__form__comment > textarea {
+  height: 100%;
+  width: 41.3vw;
+  border: 2px solid rgb(245, 87, 87);
+  outline: none;
+  font-size: 1.05rem;
+}
+.contact__form__submit__container {
+  width: 41.3vw;
+  height: 7vh;
+  margin-top: 20px;
+}
+.contact__form__submit__container .contact__form__submit {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(245, 87, 87);
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+.contact__form__submit__container .contact__form__submit:hover {
+  cursor: pointer;
+  background-color: rgb(245, 87, 87, 0.8);
+}

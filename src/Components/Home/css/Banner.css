@@ -1,0 +1,107 @@
+.banner__container {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-color: #cccc;
+  background: url("../../Images/banner_bcg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.weather__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 8vh;
+  /* position: absolute; */
+  border-radius: 0px 0px 10px 10px;
+  background-color: rgb(209, 14, 14, 0.7);
+  margin-left: 72%;
+}
+.weather__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.weather__amt {
+  display: flex;
+  font-size: 2em;
+  font-weight: 600;
+  color: white;
+  margin-left: 20px;
+  justify-content: center;
+}
+.celsius__icon {
+  margin-left: -10px;
+}
+.weather__icon {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  color: white;
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+.weather__city {
+  color: white;
+  border-right: 2px solid white;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  padding-right: 28px;
+}
+.moto__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 240px;
+  height: 100%;
+  padding-left: 30px;
+}
+.stm__container {
+  font-size: 3em;
+  font-weight: 700;
+  color: rgb(53, 51, 51);
+}
+.fam__container__initials {
+  font-weight: 900;
+  color: rgb(243, 54, 54);
+}
+.para__details {
+  font-size: 17px;
+  font-weight: 500;
+  width: 50vw;
+  text-align: justify;
+}
+.btn__container {
+  margin-top: 30px;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  width: 12vw;
+  border-radius: 999px;
+  background-color: rgba(233, 227, 227, 0.8);
+}
+.btn__container .link__banner__btn {
+  color: rgb(243, 54, 54);
+  width: 12vw;
+  height: 7vh;
+  font-size: 1.2em;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.9s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.outlineArrowRight {
+  margin-left: 5px;
+}
+.btn__container > .link__banner__btn:hover {
+  transform: translateX(5px);
+}

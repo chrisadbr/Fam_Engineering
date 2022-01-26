@@ -1,0 +1,45 @@
+<svg width="1200" height="200" xmlns="http://www.w3.org/2000/svg" stroke="null">
+ <g stroke="null">
+  <title stroke="null">Layer 1</title>
+  <path id="svg_2" d="m436,195.33333" opacity="NaN" stroke="#000" fill="#fff"/>
+  <path id="svg_6" d="m619,71.5" opacity="NaN" stroke="#000" fill="#fff"/>
+  <path stroke="#fcfcfc" stroke-width="0" id="svg_8" d="m665.99998,0.5l190.99067,199.5l350.00934,0l-2.52411,-201l-538.4759,1.5z" fill="url(#svg_26)"/>
+  <path stroke="#fcfcfc" fill-opacity="0.87" id="svg_12" d="m497.33403,199.11731l149.14934,-73.19889l551.61177,0.08157l2.90485,78.94118l-663.99993,-6.99351l-39.66604,1.16964z" stroke-width="0" fill="url(#svg_21)"/>
+ </g>
+ <defs>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_21">
+   <stop offset="0.03906" stop-opacity="0.98438" stop-color="#ede8e8"/>
+   <stop offset="0.91016" stop-opacity="0.98438" stop-color="#d82020"/>
+   <stop offset="1" stop-opacity="0.98438" stop-color="#e8f2f2"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+  </linearGradient>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_26">
+   <stop stop-opacity="0.98438" offset="0" stop-color="#fffcfc"/>
+   <stop offset="0.80078" stop-opacity="0.98047" stop-color="#d0dbdb"/>
+   <stop offset="1.00391" stop-opacity="0.99609" stop-color="#fcfcfc"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+  </linearGradient>
+ </defs>
+</svg>

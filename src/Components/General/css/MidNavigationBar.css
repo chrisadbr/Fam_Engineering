@@ -1,0 +1,49 @@
+.midNavigationBar {
+  width: 100%;
+}
+.nav_mid__container {
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  height: 12vh;
+  width: 100%;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 14px 18px -19px rgba(0, 0, 0, 0.75);
+}
+.logo__mid__bar {
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+}
+.logo__mid__bar > img {
+  object-fit: contain;
+  height: 65px;
+}
+.links__mid__container {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+.links__mid__container > nav > span {
+  margin-left: 40px;
+  font-weight: 540;
+  font-size: 1.1em;
+  color: rgb(66, 64, 64);
+  letter-spacing: 0.5px;
+  position: relative;
+  cursor: pointer;
+}
+.links__mid__container > nav > span:after {
+  content: "";
+  width: 0;
+  position: absolute;
+  height: 2px;
+  background-color: rgb(245, 71, 71);
+  transition: 0.3s;
+  left: 0;
+  bottom: -12px;
+}
+.links__mid__container > nav > span:hover:after {
+  width: 100%;
+}

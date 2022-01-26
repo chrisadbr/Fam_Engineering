@@ -1,0 +1,9 @@
+.banner {
+  height: 80vh;
+  background: url("../../Images/dna_bcg.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: #ccc;
+}

@@ -1,0 +1,50 @@
+.patners {
+  background: url("../../Images/World\ Map.svg");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+  /* background-position-x: right 10px; */
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.joinUs__container {
+  display: flex;
+  justify-content: center;
+}
+.joinUs__container > p {
+  font-size: 2.6em;
+  font-weight: 550;
+  color: rgb(66, 64, 64);
+}
+.signBox__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  width: 550px;
+  height: 9vh;
+  border: 2px solid rgb(235, 186, 186);
+  border-radius: 999px;
+}
+.signBox__container .maillist__box {
+  width: 330px;
+  font-size: 18px;
+  border: none;
+  height: 5vh;
+  margin-left: 90px;
+}
+.signBox__container .maillist__box:focus {
+  outline: none;
+}
+.maillist__arrow {
+  /* font-size: 4em; */
+  font-size: 3.5rem;
+  color: rgb(245, 71, 71);
+}
+.maillist__arrow :hover {
+  cursor: pointer;
+}

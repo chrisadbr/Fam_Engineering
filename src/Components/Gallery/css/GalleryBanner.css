@@ -1,0 +1,16 @@
+.gallery__banner {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  background: rgb(229, 228, 236);
+  background: -webkit-linear-gradient(
+      16deg,
+      rgba(229, 228, 236, 0.7) 0%,
+      rgba(143, 142, 158, 0.7) 36%
+    ),
+    url("../../Images/galler_banner_bcg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery__banner__inner {
+}

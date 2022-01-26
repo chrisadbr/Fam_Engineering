@@ -1,0 +1,118 @@
+.customerTestimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 55vh;
+  width: 100%;
+}
+.customer__reviews__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 50vh;
+  width: 100%;
+}
+.customer__review__svg {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: url("../../Images/blob.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: contain; */
+  height: 100%;
+  width: 20vw;
+}
+.customer__photo__container {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* margin: 170px 0px 0px 220px; */
+  margin: 0px 0px 60px 120px;
+  background-color: white;
+}
+.customer__photo__container .customerImg {
+  margin: 5px 0px 0px 5px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.customer__review__container {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.customer__review__container > p {
+  font-size: 1.3rem;
+  padding: 0px 10px 40px 25px;
+  font-weight: 300;
+}
+.testimonial__header {
+  display: flex;
+  margin: 30px 0px 0px 0px;
+}
+.testimonial__header > h1 {
+  position: relative;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+.testimonial__header > h1:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  width: 50px;
+  height: 3px;
+  background: rgb(245, 87, 87);
+  top: 60px;
+}
+.customer__review__container .customer__quote__left {
+  font-size: 1.1rem !important;
+  display: flex;
+  align-self: flex-start;
+  color: rgb(245, 87, 87);
+}
+.customer__name__container > p {
+  font-size: 1.17rem;
+  color: rgb(245, 87, 87);
+  font-weight: 300;
+  padding-left: 30px;
+}
+.customer__name__container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+/* Caraousel styling*/
+.paging-item > button {
+  position: relative;
+  display: flex;
+  margin: 0px 8px 0px 8px;
+  padding: 0px;
+  list-style-type: none;
+  fill: rgb(245, 87, 87) !important;
+  padding: 15px 15px 0px 15px;
+}
+.paging-item.active {
+  color: crimson;
+}
+.slider-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paging-dot {
+  color: rgb(245, 87, 87);
+  margin-top: 320px;
+}
+.ai__right__arrow,
+.ai__left__arrow {
+  color: rgb(245, 87, 87);
+  font-size: 3rem;
+  cursor: pointer;
+}
